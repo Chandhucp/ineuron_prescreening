@@ -1,0 +1,4 @@
+SELECT DISTINCT(Age) AS second_high_no
+FROM Student
+ORDER BY Age DESC
+LIMIT 1 OFFSET 1;
